@@ -1,16 +1,11 @@
-# bmi_calculator
+BMI Calculator (Cubit Version)
+This is a Flutter application for calculating Body Mass Index (BMI). The app has been refactored to use Cubit for state management, making the code more structured and easier to maintain.
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Features
+Input weight & height
+Instant BMI calculation
+State management using Cubit
+Clean architecture (separated states, cubit, and screens)
+Tech Stack
+Flutter
+Bloc / Cubit (flutter_bloc package)
